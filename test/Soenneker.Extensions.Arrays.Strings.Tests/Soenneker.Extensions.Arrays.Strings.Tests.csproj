@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Soenneker.Extensions.Arrays.Strings.csproj" />
+        <ProjectReference Include="..\..\src\Soenneker.Extensions.Arrays.Strings\Soenneker.Extensions.Arrays.Strings.csproj" />
     </ItemGroup>
 
     <ItemGroup>
