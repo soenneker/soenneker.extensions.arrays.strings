@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 namespace Soenneker.Extensions.Arrays.Strings;
 
 /// <summary>
-/// A collection of helpful string array extension methods
+/// Provides search and command-line parsing extensions for string arrays.
 /// </summary>
 public static class StringArrayExtension
 {
@@ -21,7 +21,7 @@ public static class StringArrayExtension
     /// <param name="comparison">One of the enumeration values that specifies the rules for the search, such as case sensitivity and culture.</param>
     /// <returns>true if at least one non-null element in the array contains the specified substring; otherwise, false.</returns>
     [Pure, MethodImpl(MethodImplOptions.AggressiveInlining)]
-    public static bool ContainsAPart(string[] arr, string part, StringComparison comparison)
+    public static bool ContainsAPart(this string[] arr, string part, StringComparison comparison)
     {
         for (int i = 0; i < arr.Length; i++)
         {
