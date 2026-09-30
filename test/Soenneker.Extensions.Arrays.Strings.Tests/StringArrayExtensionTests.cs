@@ -5,7 +5,7 @@ namespace Soenneker.Extensions.Arrays.Strings.Tests;
 public sealed class StringArrayExtensionTests : UnitTest
 {
     [Test]
-    public async System.Threading.Tasks.Task ContainsAPart_CanBeCalledAsExtension()
+    public async System.Threading.Tasks.ValueTask ContainsAPart_CanBeCalledAsExtension()
     {
         string[] values = ["Alpha", null!, "Beta"];
 
